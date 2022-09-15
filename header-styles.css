@@ -79,8 +79,8 @@ nav{
 .menu-socials{
     padding: 5px;
 }
-.social-name{
-}
+
+
 .sub-menu{
     visibility: hidden;
     display: none;
@@ -118,5 +118,7 @@ li:hover,:focus {
     height: 95px;
     align-items: center;
 }
+
+
 
 
