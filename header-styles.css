@@ -1,0 +1,122 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    background-color: #2B3647;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+nav{
+    display: inline;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.logo a{
+    color: white;
+    text-decoration: none;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2B3647;
+    font-family: sans-serif;
+    color: white;
+    left: 20%;
+    width: 100vw;
+
+}
+
+.main-menu{
+    list-style: none;
+    font-size: 1.3em;
+    color: white;
+    text-decoration: none;
+}
+.main-menu, .menu-socials, ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px 0 25px 0;
+    gap:1rem;
+    margin: 0 2rem;
+}
+
+.main-menu ul:hover, :focus{
+    opacity: 1;
+    visibility: visible;
+}
+.main-menu, .menu-socials, li {
+    display: inline-flex;
+    
+}
+.main-menu, .menu-socials, a {
+    color: white;
+    margin-left: auto;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.5s;
+}
+
+.main-menu, .menu-socials, a:hover{
+    color: #fcb900;
+}
+.menu-socials{
+    padding: 5px;
+}
+.social-name{
+}
+.sub-menu{
+    visibility: hidden;
+    display: none;
+    opacity: 0;
+    background-color: white;
+    position: absolute;
+    top: 4rem;
+    left: -1rem;
+    border-radius: 3px;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0) / 25%;
+    transform: translate(10px);
+    width:12rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    transition: opacity 200ms ease-in-out;
+}
+    
+
+li{
+    transition: background-color 200ms ease-in-out;
+}
+li:hover,:focus {
+    color: #fcb900;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 95px;
+    align-items: center;
+}
+
+
