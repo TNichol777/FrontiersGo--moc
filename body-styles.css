@@ -1,9 +1,197 @@
-.button-text{
-    color: black;
-    background-color: yellow;
-    border-radius: 3em;
-}
-
-a{
+/* make sure this only affects the "Read More" links bc rn it hits the header links as well*/
+.Read-more {
     color: #405B84;
 }
+
+.top section {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.top-background-image {
+    width: 100%;
+    display: flex;
+
+}
+
+.left-column {
+    position: absolute;
+    top: 300px;
+    left: 350px;
+    display: inline;
+    text-align: center;
+    width: 50%;
+}
+
+.section-title {
+    font-family: sans-serif;
+    font-size: 60px;
+    color: white;
+    text-align: left;
+}
+
+.title-section-description {
+    font-family: sans-serif;
+    color: white;
+    font-size: 35px;
+    display: flex;
+    text-align: left;
+}
+
+.button-wrapper {
+    text-align: left;
+    margin-top: 50px;
+
+}
+
+.button-link {
+    font-size: 20px;
+
+}
+
+.button-text {
+    font-family: sans-serif;
+    padding: 20px;
+    color: black;
+    background-color: yellow;
+    border-radius: .5em;
+}
+
+.right-column {
+    width: 50%;
+    margin-right: 0%;
+}
+
+.about-div,
+.love-and-respect {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-top: 35px;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.love-and-respect {
+    font-family: cursive;
+    font-size: 20px;
+}
+
+/* .accordion-list-section{
+    display: inline;
+} */
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 400px;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border-radius: 1em;
+    margin-left: 300px;
+    margin-top: 30px;
+    font-weight: bold;
+
+}
+
+.accordion:hover {
+    background: linear-gradient(120deg, #ffd30e 0%, #ec2557 100%);
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.2s ease-out;
+}
+
+.accordion:after {
+    content: '\002B';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: left;
+    margin-right: 5px;
+}
+
+.active:after {
+    content: "\2212";
+    /* Unicode character for "minus" sign (-) */
+}
+
+
+.accordion-left-column {
+    float: right;
+
+}
+
+.accordion-image {
+    float: right;
+    width: 50%;
+    top: 0;
+    border-radius: 3em;
+    scale: 65%;
+    box-shadow: #777;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row-title{
+   text-align: center;
+   font-family: sans-serif;
+   margin: 2em 0 1em 0;
+}
+
+.see-all-button{
+    font-family: sans-serif;
+    padding: 20px;
+    color: black;
+    background-color: rgb(233, 190, 0);
+    border-radius: .5em;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.see-all-wrapper {
+   text-align: center;
+   margin-top: 2em;
+   font-weight: bold;
+   font-size: 30px;
+}
+
+.column-image{
+    scale: 50%;
+    display: inline-flex;
+    float: left;
+}
+
+
+

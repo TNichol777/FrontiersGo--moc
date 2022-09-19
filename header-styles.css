@@ -1,4 +1,4 @@
-*, *::before, *::after{
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -80,7 +80,7 @@ nav{
     padding: 5px;
 }
 
-
+ 
 .sub-menu{
     visibility: hidden;
     display: none;
@@ -101,10 +101,10 @@ nav{
 }
     
 
-li{
+.sub-menu li{
     transition: background-color 200ms ease-in-out;
 }
-li:hover,:focus {
+.main-menu-1 li:hover,:focus {
     color: #fcb900;
 }
 
