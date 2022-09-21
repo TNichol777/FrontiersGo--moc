@@ -5,7 +5,7 @@
 }
 
 header {
-    position: relative;
+    position: fixed;
     background-color: #2B3647;
     display: flex;
     justify-content: space-around;

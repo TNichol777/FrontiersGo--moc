@@ -1,5 +1,5 @@
 .main-content-wrapper {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -13,6 +13,7 @@
     width: 100%;
     background-image: url("images/fronties-go-cover.jpg");
     background-size: cover;
+    overflow: hidden;
 
 }
 
@@ -21,9 +22,9 @@
 .left-column {
 
     float: left;
-    width: 30%;
-    margin-top: 8% ;
-    margin-left: 20%;
+    /* width: 30%; */
+    margin-top: 8%;
+    margin-left: 10%;
 }
 
 .top-right-column {
@@ -45,11 +46,12 @@
     font-size: 30px;
     display: flex;
     text-align: left;
+    width: 50%;
 }
 
 .button-wrapper {
     text-align: left;
-    margin-top: 10%;
+    margin-top: 5%;
 
 }
 
@@ -82,20 +84,28 @@
     font-size: 20px;
 }
 
-.accordion-list-section{
-    width: 50%;
-    
+.accordion-section {
+    overflow: hidden;
+    margin-top: 5%;
 }
 
-.accordion-list-container{
+.accordion-list-section {
+    width: 50%;
+    float: left;
+}
+
+.accordion-list-container {
     /* width: 100%;
     float: left; */
 
 }
 
+.accordion .accordion-div{
+    position: relative;
+}
+
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-    background-color: #eee;
     cursor: pointer;
     padding: 20px;
     width: 100%;
@@ -107,22 +117,24 @@
     border-radius: 1em;
     margin-left: auto;
     font-weight: bold;
+    color: black;
     /* float: left; */
 
 }
+
 .accordion-right-column {
     float: right;
-    width: 100%;
+    width: 50%;
     /* margin-right: 0%; */
-    
+
 }
 
 .accordion-image {
     border-radius: 3em;
     width: 100%;
     height: 100%;
-    
-    
+
+
 }
 
 .accordion:hover {
@@ -132,7 +144,7 @@
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .accordion:hover {
-    background-color: #ccc;
+    background:linear-gradient(120deg, #ffd30e 0%, #ec2557 100%);
 }
 
 /* Style the accordion panel. Note: hidden by default */
@@ -140,11 +152,12 @@
     padding: 0 18px;
     background-color: white;
     max-height: 0;
-    overflow: hidden;
+    /* display: none; */
+    /* visibility: hidden; */
     transition: 0.2s ease-out;
 }
 
-.accordion:after {
+.accordion::after {
     content: '\002B';
     /* Unicode character for "plus" sign (+) */
     font-size: 13px;
@@ -153,19 +166,27 @@
     margin-right: 5px;
 }
 
-.active:after {
+.active::after {
     content: "\2212";
     /* Unicode character for "minus" sign (-) */
 }
+
+/* .accordion.active{
+    color: black;
+} */
 
 
 
 
 .column {
     float: left;
-    width: 33.33%;
+    width: 30%;
+    margin-left: 3.3%;
 }
 
+.row{
+    margin-top: 5%;
+}
 .row::after {
     content: "";
     display: table;
@@ -197,8 +218,9 @@
     font-size: 30px;
 }
 
+/* width 100% because column width is already 33.33%*/
 .column-image {
-    scale: 50%;
-    display: inline-flex;
-    float: left;
+   width:100%;
+   height: 100%;
+   border-radius: 1em;
 }
