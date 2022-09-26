@@ -27,7 +27,7 @@ const navSlide = () => {
 navSlide();
 
 
-var acc = document.getElementsByClassName("accordion");
+var acc = document.getElementsByClassName("accordion-div");
 var i;
 
 for (i = 0; i < acc.length; i++) {

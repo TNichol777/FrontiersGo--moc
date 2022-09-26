@@ -1,0 +1,134 @@
+
+.accordion-section{
+    overflow: hidden;
+}
+.accordion-list-section {
+    width: 50%;
+    float: left;
+}
+.accordion .accordion-div{
+    position: relative;
+}
+
+.accordion {
+    /* width: 800px; */
+    /* margin: 90px auto; */
+    color: black;
+    /* background-color: white; */
+    /* padding: 45px 45px; */
+}
+
+.accordion-list-container .accordion-div {
+    /* position: relative; */
+    margin: 10px 10px;
+}
+
+.accordion-div .accordion {
+    position: relative;
+    padding: 10px ;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+.accordion-list-container .panel {
+    position: relative;
+    background: white;
+    height: 0;
+    font-size: 20px;
+    text-align: justify;
+    width: 100%;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.accordion-list-container .accordion::before {
+    content: '\002B';
+    color: black;
+    position: relative;
+    /* top: 50%; */
+    left: -5px;
+    font-size: 30px;
+    transform: translateY(-50%);
+    border-radius: 1em;
+}
+
+.accordion-list-container .accordion::after{
+    content: '>';
+    display: inline;
+    color: black;
+    position: absolute;
+    left: 90%;
+    font-size: 20px;
+    transform: translateY(-50%);
+    border-radius: 1em;
+}
+
+.accordion-list-container .accordion-div.active .panel {
+    height: 100px; /* makes the transition smooth*/
+    /* height: 100%; makes it not smooth */
+}
+
+.accordion-list-container .accordion-div.active .accordion::before {
+    content: '\2212';
+    font-size: 30px;
+    /* float: left; */
+    margin-right: 5px;
+}
+
+.accordion-list-container .accordion-div.active .accordion::after{
+    content: 'v';
+    font-size: 20px;
+
+}
+
+.accordion {
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border-radius: 1em;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.accordion:hover {
+    background: linear-gradient(120deg, #ffd30e 0%, #ec2557 100%);
+    border-radius: 1em;
+}
+
+.active,
+.accordion:hover {
+    background: linear-gradient(120deg, #ffd30e 0%, #ec2557 100%);
+    border-radius: 1em;
+
+}
+
+.accordion:after {
+    margin-right: 5px;
+}
+
+
+.accordion-right-column {
+    float: right;
+    width: 50%;
+}
+
+.accordion-image {
+    border-radius: 3em;
+    width: 100%;
+    height: 100%;
+}
+
+
+.panel {
+    padding: 0 18px; 
+   background-color: white;
+    /* max-height: 0;  */
+    /* display: none; */
+   transition: 0.2s ease-out; 
+} 
