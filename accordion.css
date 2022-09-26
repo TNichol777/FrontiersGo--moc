@@ -94,6 +94,7 @@
     border-radius: 1em;
     margin-left: auto;
     font-weight: bold;
+    font-family: sans-serif;
 }
 
 .accordion:hover {
@@ -131,4 +132,5 @@
     /* max-height: 0;  */
     /* display: none; */
    transition: 0.2s ease-out; 
+   font-family: sans-serif;
 } 
