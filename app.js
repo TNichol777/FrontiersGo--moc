@@ -42,4 +42,9 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
+const toggleButton = document.getElementsByClassName('menu-toggle') [0]
+const navbarLinks = document.getElementsByClassName('menus')[0]
 
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+})

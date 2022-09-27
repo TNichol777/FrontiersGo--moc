@@ -56,7 +56,11 @@ a {
   display: flex;
   position: relative;
   align-items: center;
-  padding: 0;
+  padding-right: 0;
+}
+
+.social-media-ul li {
+  padding-right: 10px;
 
 }
 

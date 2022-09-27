@@ -225,3 +225,25 @@
    height: 100%;
    border-radius: 1em;
 }
+
+
+@media (max-width: 1024px ) {
+    .main-content-wrapper{
+        width: 90%;
+    }
+    .accordion-section{
+        width: 100%;
+    }
+    .column {
+        width: 44%
+    }
+}
+
+@media (max-width:768px ){
+   .main-content-wrapper {
+    width: 90%;
+   }
+    .column{
+        width: 100%
+    }
+}

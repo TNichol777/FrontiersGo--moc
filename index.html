@@ -20,75 +20,72 @@
 
     <!--Navigation menu and header-->
     <header>
-
+        <div class="header-container">
         <div class="logo">
             <img src="images/250-100-frontiers-logo.png" href="https://frontiersgo.org/" class="header-logo">
         </div>
-        <div class="nav-menu">
-            <nav class="main-menu container">
-                <ul id="main-menu-1" class="main-menu">
-                    <li>
-                        <a href="https://frontiersgo.org/go/">GO</a>
-
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="https://frontiersgo.org/road-to-the-field/">Road to the field</a>
-                            </li>
-                            <li>
-                                <a href="https://frontiersgo.org/regions/">Regions</a>
-                            </li>
-                        </ul>
+        <a href="#" class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <!--i want all the menus in one container and be able to control the whole block with one style-->
+        <div class="menus">
+            <!--this is just for the main navigation-->
+            <div class="nav-menu">
+                <ul class="main-menu">
+                    <!--only when class dropdown is hovered will its child cotents show-->
+                    <li class="dropdown">
+                        <a href="https://frontiersgo.org/go/" class="dropbtn">Go</a>
+                        <!--container that has the drop down, made it a div....i could of done a UL 
+                but it was messing with my head, forgot to take nap today-->
+                        <div class="dropdown-content">
+                            <a href="https://frontiersgo.org/road-to-the-field/">Road to the field</a>
+                            <a href="https://frontiersgo.org/regions/">Regions</a>
+                        </div>
                     </li>
-                    <li>
-                        <a href="#">LEARN</a>
-
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="https://frontiersgo.org/latest-articles/">Articles</a>
-                            </li>
-                            <li>
-                                <a href="https://www.frontiersgo.org/event/">Events</a>
-                            </li>
-                            <li>
-                                <a href="https://frontiersgo.org/resources/">Resources</a>
-                            </li>
-                        </ul>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Learn</a>
+                        <div class="dropdown-content">
+                            <a href="https://frontiersgo.org/latest-articles/">Articles</a>
+                            <a href="https://frontiersgo.org/event/">Events</a>
+                            <a href="https://frontiersgo.org/resources/">Resources</a>
+                        </div>
                     </li>
-                    <li>
-                        <a href="#">GROW</a>
-
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="https://frontiersgo.org/newsletter/">Newsletter</a>
-                            </li>
-                        </ul>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Grow</a>
+                        <div class="dropdown-content">
+                            <a href="https://frontiersgo.org/newsletter/">Newsletter</a>
+                        </div>
                     </li>
                 </ul>
-            </nav>
-            <ul class="menu-socials">
-                <li><a href="https://www.facebook.com/frontiersgo">
-                    <img
-                    src="https://uploads-ssl.webflow.com/5966ea9a9217ca534caf139f/5c8dbe42e1e6034fdaba46f6_Facebook%20Icon.svg"
-                    width="20" alt="Facebook Icon">
-                    </a></li>
-                <li><a href="https://twitter.com/frontiersgo"> <img
-                    src="https://uploads-ssl.webflow.com/5966ea9a9217ca534caf139f/5c8dbf0a2f2b67e3b3ba079c_Twitter%20Icon.svg"
-                    width="20" alt="Twitter icon"></a></li>
-                <li><a href="https://www.instagram.com/frontiersgo">  <img
-                    src="https://uploads-ssl.webflow.com/5966ea9a9217ca534caf139f/5c8dbfe70fcf5a0514c5b1da_Instagram%20Icon.svg"
-                    width="20" alt="Instagram icon"></a></li>
+            </div>
+            <div class="social-nav">
+                <ul class="menu-socials">
+                    <li><a href="https://www.facebook.com/frontiersgo">
+                            <img src="https://uploads-ssl.webflow.com/5966ea9a9217ca534caf139f/5c8dbe42e1e6034fdaba46f6_Facebook%20Icon.svg"
+                                width="20" alt="Facebook Icon">
+                        </a></li>
+                    <li><a href="https://twitter.com/frontiersgo"> <img
+                                src="https://uploads-ssl.webflow.com/5966ea9a9217ca534caf139f/5c8dbf0a2f2b67e3b3ba079c_Twitter%20Icon.svg"
+                                width="20" alt="Twitter icon"></a></li>
+                    <li><a href="https://www.instagram.com/frontiersgo"> <img
+                                src="https://uploads-ssl.webflow.com/5966ea9a9217ca534caf139f/5c8dbfe70fcf5a0514c5b1da_Instagram%20Icon.svg"
+                                width="20" alt="Instagram icon"></a></li>
 
-            </ul>
-
+                </ul>
+            </div>
             <div class="burger">
                 <div class="line1"></div>
                 <div class="line2"></div>
                 <div class="line3"></div>
             </div>
         </div>
+    </div>
     </header>
 
-               
+
+
 
     <!--MAIN CONTENT-->
 
@@ -345,7 +342,7 @@
                 <div class="footer-column">
                     <div id="footer-image" class="logo-footer-image">
                         <a href="https://frontiersgo.org/">
-                            <img src="images\frontiersgo-logo-125-x-50-px.png" class="frontiers-footer-logo" >
+                            <img src="images\frontiersgo-logo-125-x-50-px.png" class="frontiers-footer-logo">
                         </a>
                     </div>
                     <div class="footer-text logo-text">
@@ -416,22 +413,21 @@
                         <ul class="social-media-ul">
                             <li><a href="https://instagram.com/frontiersgo" title="instagram"
                                     class="instagram-social"><img
-                                    src="https://uploads-ssl.webflow.com/5966ea9a9217ca534caf139f/5c8dbfe70fcf5a0514c5b1da_Instagram%20Icon.svg"
-                                    width="20" alt="Instagram icon">
-                                </a>
-                            </li> 
-                            <li><a href="https://www.facebook.com/frontiersgo" title="facebook"
-                                    class="facebook-social"><img
-                                    src="https://uploads-ssl.webflow.com/5966ea9a9217ca534caf139f/5c8dbe42e1e6034fdaba46f6_Facebook%20Icon.svg"
-                                    width="20" alt="Facebook Icon">
+                                        src="https://uploads-ssl.webflow.com/5966ea9a9217ca534caf139f/5c8dbfe70fcf5a0514c5b1da_Instagram%20Icon.svg"
+                                        width="20" alt="Instagram icon">
                                 </a>
                             </li>
-                            <li><a href="https://twitter.com/frontiersgo" title="twitter"
-                                class="twitter-social"><img
-                                src="https://uploads-ssl.webflow.com/5966ea9a9217ca534caf139f/5c8dbf0a2f2b67e3b3ba079c_Twitter%20Icon.svg"
-                                width="20" alt="Twitter icon">
-                            </a>
-                        </li>
+                            <li><a href="https://www.facebook.com/frontiersgo" title="facebook"
+                                    class="facebook-social"><img
+                                        src="https://uploads-ssl.webflow.com/5966ea9a9217ca534caf139f/5c8dbe42e1e6034fdaba46f6_Facebook%20Icon.svg"
+                                        width="20" alt="Facebook Icon">
+                                </a>
+                            </li>
+                            <li><a href="https://twitter.com/frontiersgo" title="twitter" class="twitter-social"><img
+                                        src="https://uploads-ssl.webflow.com/5966ea9a9217ca534caf139f/5c8dbf0a2f2b67e3b3ba079c_Twitter%20Icon.svg"
+                                        width="20" alt="Twitter icon">
+                                </a>
+                            </li>
                         </ul>
 
                     </div>
@@ -440,7 +436,7 @@
             </div>
         </div>
     </footer>
-                  
+
 
 
 </body>
