@@ -5,3 +5,4 @@
 9/21/22 - Accordion about 85% done. Updated some of the main content styling. Need to work on the pictures being the same width & height. Then footer last <br>
 9/23/22 - Accordion styling has some issues with it. Footer as of right now is a template so I dont quiet understand everything yet. Will be going back in to recreate it on my own.<br>
 9/26/22 - This is offically the end of the full layout. I think it looks prety minus a few stylings to fix but overall i like it. Still need to fix the accordion and make the page responsive now with a burger menu and media queries. <br>
+9/27/22 - Header is responsive to size, no sidebar is active yet. The main body is responsive. The accordion and footer need to be responsive still.
