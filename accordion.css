@@ -1,6 +1,8 @@
 
 .accordion-section{
     overflow: hidden;
+    /* display: flex; */
+    /* flex-direction: row; */
 }
 .accordion-list-section {
     width: 50%;
@@ -133,4 +135,22 @@
     /* display: none; */
    transition: 0.2s ease-out; 
    font-family: sans-serif;
+} 
+
+
+ @media (max-width: 1024px ) {
+    .main-content-wrapper{
+        width: 90%;
+    }
+    .accordion-right-column{
+        float: left;
+        width: 100%;
+    }
+    .accordion-list-section{
+        float: right;
+        width: 100%;
+    }
+    /* .column {
+        width: 44%
+    } */
 } 

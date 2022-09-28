@@ -184,9 +184,10 @@
     margin-left: 3.3%;
 }
 
-.row{
+.row {
     margin-top: 5%;
 }
+
 .row::after {
     content: "";
     display: table;
@@ -211,6 +212,15 @@
 
 }
 
+/* p {
+    margin: 0px -10px;
+} */
+
+a.Read-more {
+    margin: 8px -10px 0;
+    width: 100%;
+}
+
 .see-all-wrapper {
     text-align: center;
     margin-top: 2em;
@@ -221,29 +231,36 @@
 
 /* width 100% because column width is already 33.33%*/
 .column-image {
-   width:100%;
-   height: 100%;
-   border-radius: 1em;
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
 }
-
-
-@media (max-width: 1024px ) {
+/* this media query doesnt work, cant figure out how to get it wider at this resolution*/
+/* @media (max-width: 1150) {
     .main-content-wrapper{
+        width: 70%;
+    }
+   .column{
+    width: 30%;
+   }
+} */
+
+@media (max-width: 1024px) {
+    .main-content-wrapper {
         width: 90%;
     }
-    .accordion-section{
-        width: 100%;
-    }
+
     .column {
         width: 44%
     }
 }
 
-@media (max-width:768px ){
-   .main-content-wrapper {
-    width: 90%;
-   }
-    .column{
+@media (max-width:768px) {
+    .main-content-wrapper {
+        width: 90%;
+    }
+
+    .column {
         width: 100%
     }
 }
