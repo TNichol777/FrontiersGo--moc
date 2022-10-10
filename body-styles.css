@@ -2,6 +2,7 @@
     width: 60%;
     margin: 0 auto;
     font-family: sans-serif;
+    display: block;
 }
 
 .Read-more {
@@ -245,13 +246,30 @@ a.Read-more {
    }
 } */
 
+@media (max-width:  1150px) {
+    .main-content-wrapper {
+        width: 90%;
+    }
+
+    .accordion-section {
+        width: 100%;
+        transition: 1s;
+    }
+
+    /* .column {
+        width: 100%;
+    } */
+}
+
 @media (max-width: 1024px) {
     .main-content-wrapper {
         width: 90%;
     }
 
     .column {
-        width: 44%
+        width: 44%;
+        transition: 1s;
+
     }
 }
 
@@ -261,6 +279,8 @@ a.Read-more {
     }
 
     .column {
-        width: 100%
+        width: 100%;
+        transition: 1s;
+
     }
 }

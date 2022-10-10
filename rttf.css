@@ -1,0 +1,167 @@
+.top-section-rttf-wrapper {
+    height: 400px;
+    width: 100%;
+    background-image: url("images/man-water.jpeg");
+    background-position: bottom center;
+    background-size: cover;
+    overflow: hidden;
+
+}
+.header-image-column {
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    height: 100%;
+}
+
+.header-wrapper {
+    padding: 10px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.header-picture-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-around;
+}
+
+
+
+.section-title {
+    font-family: sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.title-section-description {
+    font-family: sans-serif;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    
+    width: 100%;
+}
+
+
+.main-body-section {
+    padding: 50px;
+    position: relative;
+    ;
+}
+
+
+.body-columns{
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    margin-inline-end: auto;
+    margin-left: auto;
+}
+
+.sidebar-nav{
+    width: 33.33%;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.sidebar-wrapper {
+    padding: 10px;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.toc-container{
+    margin: 80px 30px 0px 0px;
+    border: solid 1px;
+    border-radius: 1em;
+    border-color: blue;
+}
+
+.toc-header{
+    padding: var(--box padding, 20px);
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toc-header-title{
+    font-size: 18px;
+    margin: 0;
+    
+}
+
+
+.toc-list-wrapper{
+    list-style: none;
+    padding: 0;
+    ;
+}
+
+.toc-list-item{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0.5em;;
+}
+
+.toc-list-item-text{
+    color: black;
+}
+
+li.toc-list-item :hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.main-content-column {
+    width: 54.33%;
+    position: relative;
+    ;
+}
+
+.main-content-column-wrapper{
+    padding: 10px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.main-content-container{
+    margin: 80px 0px 0px 0px
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: #333333;
+    font-weight: 700;
+    line-height: 1.31;
+    margin-top: 0;
+    margin-bottom: 25px;
+    display: block;
+}
+
+P{
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+    display: block;
+    font-family: sans-serif;
+}
