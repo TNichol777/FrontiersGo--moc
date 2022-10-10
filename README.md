@@ -7,3 +7,4 @@
 9/26/22 - This is offically the end of the full layout. I think it looks prety minus a few stylings to fix but overall i like it. Still need to fix the accordion and make the page responsive now with a burger menu and media queries. <br>
 9/27/22 - Header is responsive to size, no sidebar is active yet. The main body is responsive. The accordion and footer need to be responsive still.<br>
 9/28/22 - Full page is responsive aside from detailed widths but over all good. No sidebar or burger menu and the accordion is still janky. <br>
+10/10/22 - Added pages for Road to the Field and Regions. Some styling issues but other wise all laid out. <br>
