@@ -8,3 +8,4 @@
 9/27/22 - Header is responsive to size, no sidebar is active yet. The main body is responsive. The accordion and footer need to be responsive still.<br>
 9/28/22 - Full page is responsive aside from detailed widths but over all good. No sidebar or burger menu and the accordion is still janky. <br>
 10/10/22 - Added pages for Road to the Field and Regions. Some styling issues but other wise all laid out. <br>
+10/11/22 - Added articles and fixed some of the styling issues. RTTF sidebar scoll is messing me up. <br>
