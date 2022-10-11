@@ -1,7 +1,8 @@
-.top-section-regions-wrapper {
+.top-section-articles-wrapper {
     height: 400px;
     width: 100%;
-    background-image: url("images/regions-frontiers.jpg");
+    background-image: url("images/articles2.jpg");
+    background-attachment: fixed;
     background-position: bottom center;
     background-size: cover;
     overflow: hidden;
@@ -93,7 +94,7 @@
 }
 
 .Read-more {
-    color: #405B84;
+    color: #61ce70;
 }
 
 
@@ -124,6 +125,7 @@
 a.Read-more {
     margin: 8px -10px 0 0px;
     width: 100%;
+    font-size: 12px;
 
 }
 

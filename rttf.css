@@ -1,19 +1,45 @@
 .top-section-rttf-wrapper {
-    height: 400px;
+    height: 60vh;
     width: 100%;
     background-image: url("images/man-water.jpeg");
+    background-attachment: fixed;
+
     background-position: bottom center;
     background-size: cover;
     overflow: hidden;
+    position: relative;
+    display: block;
+    background-position-y: 100%;
+
 
 }
+
+.background-overlay{
+    background-color: black;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s; 
+        transition-property: background, border-radius , opacity ;
+        transition-duration: 0.3s, 0.3s, 0.3s;
+        transition-timing-function: ease, ease, ease;
+        transition-delay: 0, 0, 0;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    
+}
+
+
 .header-image-column {
+    height: 100%;
+    min-height: 400px;
+    max-width: 1140px;
     align-items: center;
     display: flex;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    height: 100%;
 }
 
 .header-wrapper {
@@ -26,6 +52,7 @@
 }
 
 .header-picture-container {
+    padding: 10px;
     display: flex;
     position: relative;
     width: 100%;
@@ -34,7 +61,10 @@
     justify-content: space-around;
 }
 
-
+.section-title-container{
+    width: 100%;
+    margin-bottom: 10px;
+}
 
 .section-title {
     font-family: sans-serif;
@@ -77,14 +107,18 @@
 }
 
 .sidebar-wrapper {
+    width: 100%;
+
     padding: 10px;
     display: flex;
     position: relative;
     flex-wrap: wrap;
     align-content: flex-start;
+
 }
 
 .toc-container{
+    width: 100%;
     margin: 80px 30px 0px 0px;
     border: solid 1px;
     border-radius: 1em;
@@ -92,7 +126,8 @@
 }
 
 .toc-header{
-    padding: var(--box padding, 20px);
+    padding: 15px;
+    /* padding: var(--box padding, 20px); */
     font-weight: 600;
     text-transform: uppercase;
     display: flex;
@@ -109,15 +144,18 @@
 
 .toc-list-wrapper{
     list-style: none;
-    padding: 0;
+    padding: 15px;
     ;
 }
 
 .toc-list-item{
+    padding: 0px 30px 0px 5px;
     font-family: sans-serif;
     font-size: 16px;
     font-weight: 500;
-    margin-bottom: 0.5em;;
+    margin-bottom: 0.5em;
+    line-height: 1.7;
+
 }
 
 .toc-list-item-text{
@@ -150,7 +188,7 @@ li.toc-list-item :hover{
 
 h2{
     font-family: sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #333333;
     font-weight: 700;
     line-height: 1.31;
@@ -164,4 +202,10 @@ P{
     margin-bottom: 2.5rem;
     display: block;
     font-family: sans-serif;
+}
+
+.right-column-wrap{
+    display: flex;
+    position: relative;
+    width: 12.33%;
 }
