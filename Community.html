@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Styles.css" type="text/css">
-
-    
-
+    <!-- <link rel="stylesheet" href="community.css" type="text/css"> -->
 
 
-    <title>Articles</title>
+
+
+
+    <title>Document</title>
 </head>
 
 <body>
-
     <!--Navigation menu and header-->
     <header>
         <div class="header-container">
@@ -30,13 +30,13 @@
             </a>
             <!--i want all the menus in one container and be able to control the whole block with one style-->
             <div class="menus">
-                <!--this is just for the main navigation-->
+                <!-- this is just for the main navigation -->
                 <div class="nav-menu">
                     <ul class="main-menu">
                         <!--only when class dropdown is hovered will its child cotents show-->
                         <li class="dropdown">
                             <a href="https://frontiersgo.org/go/" class="dropbtn">Go</a>
-                            <!--container that has the drop down, made it a div....i could of done a UL 
+                            <!-- container that has the drop down, made it a div....i could of done a UL 
                 but it was messing with my head, forgot to take nap today-->
                             <div class="dropdown-content">
                                 <a href="Road-to-the-Field.html">Road to the field</a>
@@ -56,6 +56,7 @@
                                 <a href="Community.html">Community</a>
                                 <a href="#">Events</a>
                                 <a href="https://frontiersgo.org/newsletter/">Newsletter</a>
+
                             </div>
                         </li>
                     </ul>
@@ -79,145 +80,143 @@
             </div>
         </div>
     </header>
-    <!--End Header-->
 
     <!--Top section image-->
-    <div class="top-section-articles-wrapper">
-        <div class="background-overlay-articles"></div>
-
-        <div class="header-image-column-articles">
-            <!--header column-->
-            <div class="header-wrapper">
-                <div class="header-picture-container">
-                    <div class="section-title-container">
-                        <h1 class="section-title">
-                            Latest Articles and Posts
-                        </h1>
-                    </div>
-                    <div class="desc-container">
-                        <div class="widget-container">
-                            <p class="title-section-description">
-                                Learn what is happening and where Goers are Going
-                            </p>
-                        </div>
-                    </div>
+    <div class="top-section-community-wrapper">
+        <div class="background-overlay-community"></div>
+        <div class="community-banner-form">
+            <div class="community-column">
+                <div class="community-title">
+                    <h4>The FrontiersGo Community</h2>
+                        <br>
+                        <h1>Come and See</h1>
                 </div>
+                <div class="community-description">
+                    <h4>Longer but smaller detailed text can go here. Maybe a sentance or two</h4>
+                </div>
+
+            </div>
+            <div class="community-form-column">
+                <form action="submit">
+                    <input type="text" id="email" class="submit-input" name="email" placeholder="Email">
+                    <input type="text" id="firstName" class="submit-input" name="firstName" placeholder="First Name">
+                    <input type="text" id="lastName" class="submit-input" name="lastName" placeholder="Last Name">
+                    <button type="submit" class="community-submit">Submit</button>
+                </form>
             </div>
         </div>
     </div>
     <!--End top section image-->
 
-    <div class="main-content-wrapper">
-
-        <div class="row">
-            <div class="column-articles">
-                <img class="column-image-articles" src="images/middle-east6.webp">
-                <div class="article-entry">
-                    <h4>Middles East Region</h4>
-                    <p class="p-articles">From the cedars of Lebanon to the deserts of Arabia, this land of genuine
-                        hospitality
-                        offers...</p>
-                    <a href="#" class="Read-more-articles">Read More</a>
-                </div>
+    <!-- Community Summary-->
+    <div class="community-summary-section">
+        <div class="community-summary">
+            <div class="summary-title">
+                <h2>Community is...</h2>
             </div>
-            <div class="column-articles">
-                <img class="column-image-articles" src="images/turkey-3.jpg">
-                <div class="article-entry">
-                    <h4>Türkiye/Balkans Region</h4>
-                    <p class="p-articles">A crossroads of cultures and a bridge between continents, this region of
-                        mountains
-                        and seas has...
-                    </p>
-                    <a href="#" class="Read-more-articles">Read More</a>
-                </div>
+            <div class="summary-description-title">
+                <h3>Necessary.</h3>
             </div>
-            <div class="column-articles">
-                <img class="column-image-articles" src="images/south-east-2.jpg">
-                <div class="article-entry">
-                    <h4>Southeast Asia Region</h4>
-                    <p class="p-articles">With its unlimited adventures, perpetual smiles, and more than 10,000 islands,
-                        Southeast Asia is a
-                        famously...</p>
-                    <a href="#" class="Read-more-articles">Read More</a>
-                </div>
+            <div class="summary-description">
+                <h3>"And let us consider how we may spur one another on towards love and good deeds, not giving up
+                    meeting together, as some are in habit of doing, but encouraging one another..." Hebrews 10:24-25.
+                </h3>
             </div>
         </div>
-
-
-
-        <!-- play with margin & padding around the images. % only -->
-
-        <div class="row">
-            <div class="column-articles">
-                <img class="column-image-articles" src="images/south-asia-2.webp">
-                <div class="article-entry">
-                    <h4>South Asia Region</h4>
-                    <p class="p-articles">The homeland of over a billion people, South Asia is a region of dazzling
-                        diversity, trailblazing adventure, and famously welcoming people who are always ready to make
-                        instant friends.</p>
-                    <a href="#" class="Read-more-articles">Read More</a>
-                </div>
-            </div>
-            <div class="column-articles">
-                <img class="column-image-articles" src="images/south-west-asia-3.webp">
-                <div class="article-entry">
-                    <h4>Southwest Asia Region</h4>
-                    <p class="p-articles">A land dominated by complex socio-political dynamics, Southwest Asia is home
-                        to ancient civilizations, stunning landscapes, and endlessly hospitable people.</p>
-                    <a href="#" class="Read-more-articles">Read More</a>
-                </div>
-            </div>
-            <div class="column-articles">
-                <img class="column-image-articles" src="images/central-asia4.webp">
-                <div class="article-entry">
-                    <h4>Central Asia Region</h4>
-                    <p class="p-articles">Combining breathtaking mountain scenery, a history of epic conquests, and the
-                        legendary Silk Road, this land is one of the most culturally diverse regions of the world.</p>
-                    <a href="#" class="Read-more-articles">Read More</a>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="row">
-            <div class="column-articles">
-                <img class="column-image-articles" src="images/sub-africa5.webp">
-                <div class="article-entry">
-                    <h4>Sub-Saharan African Region</h4>
-                    <p class="p-articles">Stretching across a continent of varied landscapes, Sub-Saharan Africa is made
-                        up of expressive, tenacious, and friendly people who have survived eras of conflict and famine…
-                    </p>
-                    <a href="#" class="Read-more-articles">Read More</a>
-                </div>
-
-            </div>
-            <div class="column-articles">
-                <img class="column-image-articles" src="images/africa.webp">
-                <div class="article-entry">
-                    <h4>North Africa Region</h4>
-                    <p class="p-articles">A land of jasmine-scented coastlines and stunning desert landscapes, North
-                        Africa is home to hundreds of millions of Muslims. But in the time of the early church, this
-                        region nurtured thriving Christian communities and desert monasteries….</p>
-                    <a href="#" class="Read-more-articles">Read More</a>
-                </div>
-
-            </div>
-            <div class="column-articles">
-                <img class="column-image-articles" src="images/123.webp">
-                <div class="article-entry">
-                    <h4>Make Disciples With The "3-2-1" Lifestyle</h4>
-                    <p class="p-articles">Too busy to make disciples? One obstacle I’ve encountered when it comes to
-                        making disciples or doing Muslim ministry is being too busy. With commitments for work, school,
-                        family, friends, and church, you...</p>
-                    <a href="#" class="Read-more-articles">Read More</a>
-                </div>
-
-            </div>
-
-        </div>
-
-
     </div>
+    <!-- END Community Summary-->
+
+    <!-- How it works-->
+    <div class="community-howitworks-section">
+        <div class="howitworks-title">
+            <h2>How It Works</h2>
+        </div>
+        <div class="three-step-column">
+            <div class="stepcolumn step1-column">
+                <div class="step-image step-1-image"></div>
+                <div class="step-title title-step-1">Step 1</div>
+                <div class="step-description description-step-1">Lorem, ipsum dolor sit amet consectetur adipisicing
+                    elit. Dignissimos asper</div>
+
+            </div>
+            <div class="stepcolumn step2-column">
+                <div class="step-image step-2-image"></div>
+                <div class="step-title title-step-2">Step 2</div>
+                <div class="step-description description-step-2">Lorem ipsum dolor sit amet consectetur adipisici</div>
+
+            </div>
+            <div class="stepcolumn step3-column">
+                <div class="step-image step-3-image"></div>
+                <div class="step-title title-step-3">Step 3</div>
+                <div class="step-description description-step-3">Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- END how it works-->
+
+    <!--Benefits-->
+    <div class="benefits-section">
+        <div class="benefits-title">
+            <h2>Why Join The Community?</h2>
+        </div>
+        <div class="benefits-grid">
+            <div class="grid-item grid-item-1">
+                <h3>Access</h3>
+                <p>As a part of our community, you will be able to access information about what's going on throughout
+                    God's Harvest as well as higher-tier training and resources within our organization.</p>
+            </div>
+            <div class="grid-item grid-item-2"><img src="" alt=""></div>
+            <div class="grid-item grid-item-3"><img src="" alt=""></div>
+            <div class="grid-item grid-item-4">
+                <h3>Coaching</h3>
+                <p>When you're a part of our community, you will be connected with a coach who will walk alongside you
+                    and encourage, equip, and empower you in your pursuit of sering God's Kingdom</p>
+            </div>
+            <div class="grid-item grid-item-5">
+                <h3>Fellowship</h3>
+                <p>Another key feature of community is, well, the community. As a member on the inside, you'll be
+                    connected to many other like-minded individuals who share your heart and passion for the Nations.
+                </p>
+            </div>
+            <div class="grid-item grid-item-6"><img src="" alt=""></div>
+
+
+        </div>
+    </div>
+    <!-- END benefits-->
+
+    <!--Call to action-->
+    <div class="CTA-section">
+        <div class="call-to-action-row">
+            <div class="join-the-community jtc-column">
+                <h2>Join the Community Today</h2>
+            </div>
+
+            <div class="community-form-column">
+                <form action="submit">
+                    <input type="text" id="email" class="submit-input" name="email" placeholder="Email">
+                    <input type="text" id="firstName" class="submit-input" name="firstName" placeholder="First Name">
+                    <input type="text" id="lastName" class="submit-input" name="lastName" placeholder="Last Name">
+                    <button type="submit" class="community-submit">Submit</button>
+                </form>
+            </div>
+            <!-- <div class="join-the-community-form jtc-column">
+                <form action="submit">
+                    <input type="text" id="email" name="email" placeholder="Email">
+                    <input type="text" id="firstName" name="firstName" placeholder="First Name">
+                    <input type="text" id="lastName" name="lastName" placeholder="lastName">
+                    <button type="submit">Submit</button>
+                </form>
+
+            </div> -->
+        </div>
+    </div>
+    <!-- END call to action-->
+   
+
+
 
     <!--FOOTER-->
     <footer class="footer">
